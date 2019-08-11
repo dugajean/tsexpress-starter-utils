@@ -16,11 +16,10 @@
   "contributors": [
     "Dukagjin Surdulli <me@dukagj.in> (https://dukagj.in/)"
   ],
-  "main": "dist/application.js",
-  "types": "application.d.ts",
+  "main": "dist/helpers.js",
+  "types": "dist/helpers.d.ts",
   "scripts": {
-    "prepublish": "yarn build && yarn defs",
-    "defs": "tsc --declaration --outDir . --emitDeclarationOnly",
+    "prepublish": "yarn build",
     "build": "rimraf dist && yarn lint && tsc",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "test": "cross-env NODE_ENV=test tsc && ava"
