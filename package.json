@@ -1,7 +1,7 @@
 {
   "name": "@tsexpress-starter/utils",
   "version": "0.1.7",
-  "description": "The TSExpress Starter core functionality.",
+  "description": "Utility and helper functions.",
   "keywords": [
     "typescript",
     "express"
