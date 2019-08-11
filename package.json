@@ -7,15 +7,19 @@
     "express"
   ],
   "author": "Dukagjin Surdulli <me@dukagj.in> (https://dukagj.in/)",
-  "homepage": "https://github.com/dugajean/tsexpress-starter-core",
+  "homepage": "https://github.com/dugajean/tsexpress-starter-utils",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dugajean/tsexpress-starter-core/issues",
+    "url": "https://github.com/dugajean/tsexpress-starter-utils/issues",
     "email": "me@dukagj.in"
   },
   "contributors": [
     "Dukagjin Surdulli <me@dukagj.in> (https://dukagj.in/)"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dugajean/tsexpress-starter-utils.git"
+  },
   "main": "dist/helpers.js",
   "types": "dist/helpers.d.ts",
   "scripts": {
@@ -48,9 +52,5 @@
   },
   "engines": {
     "node": ">=8.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dugajean/tsexpress-starter-core.git"
   }
 }
