@@ -32,9 +32,6 @@
     "tslint": "^5.18.0",
     "typescript": "^3.5.3"
   },
-  "peerDependencies": {
-    "express": "*"
-  },
   "ava": {
     "failFast": true,
     "verbose": true,
